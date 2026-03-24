@@ -1,0 +1,7 @@
+{
+  "strategy": "subject_holdout",
+  "description": "Train on as many subjects as possible while keeping one subject held out for monitoring.",
+  "train_subjects": ["P01", "P02", "P03", "P04"],
+  "val_subjects": ["P05"],
+  "test_subjects": ["P05"]
+}
